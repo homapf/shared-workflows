@@ -1,0 +1,12 @@
+name: Test
+
+on:
+  workflow_call:
+
+jobs:
+  push-to-upm:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Hello, world!"
